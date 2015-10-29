@@ -15,6 +15,7 @@ list2 = list1
 list2.remove(1)
 print list1
 
+#test for github
 ### PCA on beer reviews ###
 
 def parseData():
