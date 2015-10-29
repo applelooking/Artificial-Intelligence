@@ -61,7 +61,7 @@ def problemB():
 
 def problemC():
   kmeansX = X[:500]
-  kmeans = AgglomerativeClustering(n_clusters = 2)
+  kmeans = AgglomerativeClustering(n_clusters = 2,linkage ='ward')
   kmeans.fit(kmeansX)
   label = kmeans.labels_
   total0 = 0

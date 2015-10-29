@@ -4,7 +4,7 @@ import scipy.optimize
 import random
 from sklearn.decomposition import PCA
 from collections import defaultdict
-
+#A test about Github
 ### PCA on beer reviews ###
 
 def parseData(fname):
