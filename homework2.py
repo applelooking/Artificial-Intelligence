@@ -14,7 +14,7 @@ list1 = [1,2,3,4]
 list2 = list1
 list2.remove(1)
 print list1
-
+#change the email to the origin one
 #test for github
 ### PCA on beer reviews ###
 
