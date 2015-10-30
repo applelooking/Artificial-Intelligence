@@ -6,7 +6,7 @@ from sklearn.decomposition import PCA
 from collections import defaultdict
 #A test about Github
 ### PCA on beer reviews ###
-
+#just test git
 def parseData(fname):
   for l in urllib.urlopen(fname):
     yield eval(l)
